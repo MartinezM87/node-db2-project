@@ -1,13 +1,30 @@
 {
-    "name": "node-db2-challenge",
-    "version": "1.0.0",
-    "description": "Node DB 2 Module Challenge",
-    "main": "index.js",
-    "scripts": {
-        "server": "nodemon index.js"
-    },
-    "author": "Lambda School",
-    "devDependencies": {
-        "nodemon": "^2.0.2"
-    }
+  "name": "webdb-ii-challenge",
+  "version": "1.0.0",
+  "description": "Web DB II Module Challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "Lambda School",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "expresss": "0.0.0",
+    "knex": "^0.19.1",
+    "sqlite3": "^4.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yorkcook/webdb-ii-challenge.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yorkcook/webdb-ii-challenge/issues"
+  },
+  "homepage": "https://github.com/yorkcook/webdb-ii-challenge#readme"
 }
